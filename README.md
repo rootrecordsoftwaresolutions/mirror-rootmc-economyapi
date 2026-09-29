@@ -1,43 +1,13 @@
-# EconomyAPI [![Build Status](https://travis-ci.org/EconomyS/EconomyAPI.svg?branch=master)](https://travis-ci.org/EconomyS/EconomyAPI)
-Core of economy system for Nukkit
+# mirror-rootmc-economyapi
 
-## Commands
- - /mymoney
- - /seemoney
- - /givemoney
- - /takemoney
- - /topmoney
- - /setmoney
+> **Inventory mirror (2026-08)** — not primary development.
 
-## Permissions
-- economyapi
-	- economyapi.command
-		- economyapi.command.mymoney
-		- economyapi.command.givemoney `OP`
-		- economyapi.command.takemoney `OP`
-		- economyapi.command.setmoney `OP`
-		- economyapi.command.topmoney
+> **Authority:** [RootRecord-Software-Solutions](https://github.com/RootRecord-Software-Solutions) (org)  
+> **Docs index:** [MIGRATION-DOCS-INDEX](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/00-architecture/MIGRATION-DOCS-INDEX-2026-09-28.md)  
+> **Product / archive catalog:** [Product-Archive-Repo-Catalog](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/00-architecture/Product-Archive-Repo-Catalog-2026-09-28.md)  
+> **Live Pacific:** [RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)  
+> **Library:** [RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)
 
-## For developers
+Static inventory mirror of `RootMC/EconomyAPI` from the 2026-08 account consolidation. **Do not develop against this repo.** Prefer historical source or future product home under the org after Pacific catch-up.
 
-Developers can access to EconomyAPI's API by using:
-```java
-EconomyAPI.getInstance().myMoney(player);
-EconomyAPI.getInstance().reduceMoney(player, amount);
-EconomyAPI.getInstance().addMoney(player, amount);
-```
-
-Maven repository
-```xml
-<repository>
-	<id>onebone</id>
-	<url>http://jenkins.onebone.me/plugin/repository/everything/</url>
-</repository>
-
-<dependency>
-	<groupId>me.onebone</groupId>
-	<artifactId>economyapi</artifactId>
-	<version>1.0.0</version>
-	<scope>provided</scope>
-</dependency>
-```
+*Transition banner 2026-09-28 HST.*
